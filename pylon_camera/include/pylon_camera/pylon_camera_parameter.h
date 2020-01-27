@@ -233,6 +233,7 @@ public:
      */
     bool exposure_auto_;
     bool gain_auto_;
+    int balance_white_auto_;
     // #######################################################################
 
     /**

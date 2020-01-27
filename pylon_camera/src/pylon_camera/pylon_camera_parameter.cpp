@@ -60,6 +60,7 @@ PylonCameraParameter::PylonCameraParameter() :
         brightness_continuous_(false),
         exposure_auto_(true),
         gain_auto_(true),
+        balance_white_auto_(0),
         // #########################
         exposure_search_timeout_(5.),
         auto_exp_upper_lim_(0.0),
@@ -207,6 +208,11 @@ void PylonCameraParameter::readFromRosParameterServer(const ros::NodeHandle& nh)
             {
                 nh.getParam("gain_auto", gain_auto_);
                 std::cout << "gain is set to auto" << std::endl;
+            }
+            if ( nh.hasParam("balance_white_auto") )
+            {
+                nh.getParam("balance_white_auto", balance_white_auto_);
+                std::cout << "balance white is set to " << balance_white_auto_ << std::endl;
             }
         }
     }

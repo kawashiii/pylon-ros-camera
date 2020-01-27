@@ -522,6 +522,11 @@ bool PylonCameraNode::startGrabbing()
         { 
             pylon_camera_->disableAllRunningAutoBrightessFunctions();
         }
+
+        if ( pylon_camera_parameter_set_.balance_white_auto_ != 0)
+        {
+            pylon_camera_->setBalanceWhiteAuto(pylon_camera_parameter_set_.balance_white_auto_);
+        }
     }
 
     ROS_INFO_STREAM("Startup settings: "

@@ -4,8 +4,8 @@ camera_frame: pylon_camera
 #  The DeviceUserID of the camera. If empty, the first camera found in the
 #  device list will be used
 #device_user_id: "acA2040-120uc (23252228)"
-device_user_id: "xyz-rgb-camera:q
-"
+device_user_id: "xyz-rgb-camera"
+
 
 #  The CameraInfo URL (Uniform Resource Locator) where the optional intrinsic
 #  camera calibration parameters are stored. This URL string will be parsed

@@ -80,7 +80,7 @@ brightness: 50
 #  trying to adapt to changing light conditions. This is only possible for
 #  values in the possible auto range of the pylon API which is e.g. [50 - 205]
 #  for acA2500-14um and acA1920-40gm
-# brightness_continuous: true
+#  brightness_continuous: true
 
 #  Only relevant, if 'brightness' is set:
 #  If the camera should try to reach and / or keep the brightness, hence

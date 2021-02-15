@@ -50,7 +50,7 @@ frame_rate: 5.0
 ##########################################################################
 
 #  The exposure time in microseconds to be set after opening the camera.
-exposure: 10000.0
+exposure: 40000.0
 #exposure: 40000
 
 #  The target gain in percent of the maximal value the camera supports
